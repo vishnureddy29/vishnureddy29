@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "@slack/bolt": "^3.12.2"
+  },
+  "name": "slackbot",
+  "version": "1.0.0",
+  "main": "app.js",
+  "devDependencies": {
+    "@slack/bolt": "^3.12.2",
+    "axios": ">=0.21.1",
+    "botbuilder-adapter-slack": "^1.0.10",
+    "botkit": "^4.8.1"
+  },
+  "scripts": {
+    "test": "standard \"**/*.js\" && node test/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/googlecodelabs/cloud-slack-bot.git"
+  },
+  "author": "vishnu",
+  "license": "MIT",
+  "description": "A sample Slack Botkit bot."
+}
+
+
