@@ -1,26 +1,20 @@
 {
-  "dependencies": {
-    "@slack/bolt": "^3.12.2"
-  },
   "name": "slackbot",
   "version": "1.0.0",
-  "main": "app.js",
-  "devDependencies": {
-    "@slack/bolt": "^3.12.2",
-    "axios": ">=0.21.1",
-    "botbuilder-adapter-slack": "^1.0.10",
-    "botkit": "^4.8.1"
-  },
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "test": "standard \"**/*.js\" && node test/app.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/googlecodelabs/cloud-slack-bot.git"
+    "url": "git+https://github.com/vishnureddy29/vishnureddy29.git"
   },
-  "author": "vishnu",
-  "license": "MIT",
-  "description": "A sample Slack Botkit bot."
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vishnureddy29/vishnureddy29/issues"
+  },
+  "homepage": "https://github.com/vishnureddy29/vishnureddy29#readme"
 }
-
-
